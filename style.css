@@ -1,0 +1,48 @@
+#header {
+  text-align: center;
+}
+
+html {
+  background-color: darkgray;
+}
+
+#start-game {
+  display: flex;
+  position: fixed;
+  left: 50%;
+  margin-left: -42.07px;
+}
+
+#board-container {
+  display: none;
+  position: fixed;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: 45px;
+  font-size: 75px;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  justify-items: center;
+  align-items: center;
+}
+
+[id^='position'] {
+  width: 100px;
+  height: 100px;
+  font-size: 75px;
+  border-color: black;
+  background-color: white;
+  color: white;
+}
+
+#winner {
+  color: darkgray;
+  text-align: center;
+}
+
+#restart-btn {
+  display: none;
+  position: fixed;
+  left: 50%;
+  margin-left: -49.47px;
+}
